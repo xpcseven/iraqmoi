@@ -1,11 +1,5 @@
-import React from 'react'
-import CourseCreate from "@/components/CourseCreate";
+import React from "react";
 const page = ({ params }: any) => {
-
-  return (
-    <div>
-        <CourseCreate userid={params.id} />
-    </div>
-  )
-}
+  return <div>Add Courses</div>;
+};
 export default page;
