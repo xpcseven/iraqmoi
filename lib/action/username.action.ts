@@ -2,7 +2,6 @@
 
 import UserProfile from "@/database/usernamepermition.models";
 import { connectToDatabase } from "../mongoose";
-import { revalidatePath } from "next/cache";
 
 // Create Username function
 export interface CreateUserParams {
